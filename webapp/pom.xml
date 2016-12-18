@@ -21,6 +21,25 @@
 		<artifactId>javax.servlet-api</artifactId>
 		<version>3.1.0</version>
 	</dependency>
+	
+	<dependency>
+    	<groupId>ai.api</groupId>
+    	<artifactId>libai</artifactId>
+    	<version>1.2.3</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>tw.kewang</groupId>
+    	<artifactId>google-tts</artifactId>
+    	<version>0.0.2</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>net.sourceforge.dynamicreports</groupId>
+    	<artifactId>dynamicreports-core</artifactId>
+    	<version>4.1.1</version>
+	</dependency>
+	
     
   </dependencies>
   <build>
