@@ -2,6 +2,9 @@
 	
 	<head>
 		  <link rel="stylesheet" href="styles.css">
+		  
+
+		  
 	</head>
 	<body>
 	
@@ -11,15 +14,20 @@
 		<h2 style="font-family:verdana;"id="temp"></h2>
 		<h2 style="font-family:verdana;"id="icon"></h2>
 		
+		
 		<img src="nothing.jpg" id="image" name="image" width="104" height="142"/>
 		
 		
 		
+		<script type="text/javascript">
+				function foo() {
+			    theApplet = document.getElementById("app");
+			        // The following line clobbers the document...
+			    //document.write(theApplet.method());
+			    document.getElementById("display").innerHTML = CompletionTxt.generateAndSendEmail.class();
+			}
+		</script>		
 		
-		
-		
-		
-	
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 		<script>
 			jQuery(document).ready(function($) {
@@ -47,6 +55,12 @@
 		<object data=http://192.168.0.11/X10PHPTest/ width="600" height="400"> <embed src=http://localhost:8080/webapp/ width="600" height="400"> </embed> Error: Embedded data could not be displayed. </object>
 
 		<!--http://api.wunderground.com/api/495ebf5ed805ee0d/alerts/q/OH/Worthington.json -->
+		
+		<applet id="app" width=0 height=0 code="MyClass.class"></applet>
+		<form>
+		    <p><input type="button" onclick="javascript:foo()" value="ok"></input></p>
+		</form>
+		<div id="display"></div>
 		
 	
 	</body>
