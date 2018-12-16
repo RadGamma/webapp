@@ -11,7 +11,7 @@ import java.io.PrintWriter;
  * @author AFAFAFF
  */
  
-public class HelloCrunchify extends HttpServlet {
+public class HelloWebapp extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // reading the user input
         String username = request.getParameter("username");
